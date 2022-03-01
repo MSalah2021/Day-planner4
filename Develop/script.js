@@ -33,3 +33,4 @@ function colorTimeBlocks() {
 function handleSave() {
     var hourId = $(this).parent().attr("id");
     localStorage.setItem(moment().format("DDDYYYY") + hourId, $("#" + hourId + " textarea").val());
+}
